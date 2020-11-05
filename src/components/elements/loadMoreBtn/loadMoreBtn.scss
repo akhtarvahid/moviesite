@@ -1,0 +1,18 @@
+.rmdb-loadmorebtn {
+  text-align: center;
+  transition: all 0.3s;
+  margin: 60px;
+  button {
+    background: #16d47b;
+    padding: 12px 25px;
+    border: none;
+    color: white;
+    outline-width: 0;
+    cursor: pointer;
+    font-size: 19px;
+    border-radius: 50px;
+  }
+  &:hover {
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,67 @@
+
+.hero-banner {
+    position: relative;
+    .carousel-banner {
+        .sc-eCssSg {
+            .sc-dlfnbm {
+                margin: 0;
+            }
+        }
+        .rec-arrow-right {
+            position: absolute;
+            font-size: 1em;
+            right: 50%;
+            bottom: 10px;
+            background-color: #f3f3f36e;
+            box-shadow: 0 0 2px 0px #f3f3f3;
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            min-width: 25px;
+            line-height: 50px;
+            align-self: center;
+            cursor: pointer;
+            outline: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover, &:active {
+                background-color: #fff;
+                color: darkcyan;
+            }
+            &:focus {
+                background-color: #ff9595;
+                color: #fff;
+            }
+        }
+        .rec-arrow-left {
+            position: absolute;
+            z-index: 999;
+            font-size: 1em;
+            left: 50%;
+            bottom: 10px;
+            background-color: #f3f3f36e;
+            box-shadow: 0 0 2px 0px #f3f3f3;
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            min-width: 25px;
+            line-height: 50px;
+            align-self: center;
+            cursor: pointer;
+            outline: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 10px;
+            &:hover {
+                background-color: #fff;
+                color: darkcyan;
+            }
+            &:focus {
+                background-color: #ff9595;
+                color: #fff;
+            }
+        }
+    }
+}
