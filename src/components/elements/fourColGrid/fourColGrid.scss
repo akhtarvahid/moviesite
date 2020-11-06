@@ -1,7 +1,19 @@
 .rmdb-grid {
- h1 {
+ h2 {
   font-family: 'Abel', sans-serif;
-  font-size:42px;
+  font-size:25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgray;
+  padding: 5px 0px;
+  svg {
+    color: #566556;
+    margin-right: 5px;
+    font-size: 28px;
+  }
  }
   .rmdb-grid-content {
     display: grid;
